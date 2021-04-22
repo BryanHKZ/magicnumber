@@ -106,7 +106,7 @@ function getInputValue() {
     intentos.push(userInput);
     document.getElementById(
       "output"
-    ).innerHTML = `Bien hecho ${userName}, has ganado!`;
+    ).innerHTML = `Bien hecho ${userName}, le agarraste la plata al mello y votaste por caicedo`;
     clearInterval(interval);
     updateList(true);
     displayButtons();
