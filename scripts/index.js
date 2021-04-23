@@ -13,6 +13,8 @@ var max = 1000,
   intentos = [];
 const button = document.getElementById("verifyButton");
 
+console.log(magicNumber);
+
 showUsers();
 
 function displayButtons() {
